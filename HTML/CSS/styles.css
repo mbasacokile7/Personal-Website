@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+}
+
+.Nav_Buttons {
+  font-family: 'Baloo 2', cursive;
+  color: White;
+}
+
+.Nav_Buttons:hover{
+	color: #CEE5D0;
+}
+
+
+.banner-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner-text ul {
+  height: 50px;
+  float: right;
+}
+
+.banner-text ul li {
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+
+.banner-text ul li:hover {
+  cursor: pointer;
+}
+
+.banner-text h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 20%;
+}
+
+.animation-area {
+  background: linear-gradient(to left, #001824, #001824);
+  width: 100%;
+  height: 100vh;
+}
+
+.box-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-area li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+}
+
+.box-area li:nth-child(1) {
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.box-area li:nth-child(2) {
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+
+.box-area li:nth-child(3) {
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4) {
+  left: 42%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+
+.box-area li:nth-child(5) {
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0s;
+}
+
+.box-area li:nth-child(6) {
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+#About {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  background-color: #001824;
+  color: White;
+}
+
+.Portfolio_Header {
+  margin-bottom: 50px;
+}
+
+.projects {
+  margin-top: 10px;
+}
+
+.About_heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Prof_text {
+  text-align: center;
+}
+
+.welcome-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Portfolio_Button {
+  color: white;
+  background-color: #889EAF;
+}
+
+.link_btn {
+  color: white;
+}
+
+.Portfolio_Button:hover {
+  background-color: #506D84;
+  color: #001824;
+}
+
+.Intro_Heading {
+  margin-bottom: 50px;
+}
+
+.Introduction {
+  margin-bottom: 50px;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box
+}
+
+/* Container for skill bars */
+.container-1 {
+  width: 100%;
+  /* Full width */
+  background-color: #fffff;
+  /* Grey background */
+}
+
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 5px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+
+.skill {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.lang {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.python {
+  width: 80%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+.html {
+  width: 80%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+.css {
+  width: 80%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+.javascript {
+  width: 60%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+.ds {
+  width: 70%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+.ai {
+  width: 70%;
+  height: 2.3rem;
+  background-color: #889EAF;
+  border-radius: 25px;
+}
+
+/*Portfolio*/
+#Portfolio {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  background-color: #889EAF;
+  text-align: center;
+}
+
+/*Contact*/
+#Contact {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  background-color: White;
+  text-align: center;
+}
+
+.icons_con_1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icons_con_2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Contact-header {
+  margin-bottom: 80px;
+}
+
+.icons {
+  color: #001824;
+  margin-bottom: 10px;
+}
+
+.icons:hover {
+  color: #9ba0de;
+}
+
+/*Design Handle*/
+#Design_Handle {
+  text-align: center;
+  background-color: #001824;
+  color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+/* Style the navbar */
+#Navigation-Bar {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+	background-color: #001824;
+	color: white;
+
+}
+.Navigation-Bar {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+	background-color: #001824;
+	color: white;
+	padding-top: 10px;
+}
+
+
+.nav_links{
+	color: white;
+}
+
+.nav_links:hover{
+	color: #CEE5D0;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-image: linear-gradient(to bottom right, white , #889EAF); ; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 22px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  transition: width 3s, height 2s;
+  transition-timing-function: linear;
+}
+
+#myBtn:hover {
+  background-color: #889EAF; /* Add a dark-grey background on hover */
+  height:80px;
+  width:80px;
+}
